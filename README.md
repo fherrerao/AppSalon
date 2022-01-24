@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://fherrerao.github.io/To-Do-lists/dist/)
+[Live Demo Link](https://fherrerao.github.io/AppSalon/)
 
 
 ## Getting Started
