@@ -1,0 +1,46 @@
+.invalidar-cita{
+    text-align: center;
+    margin: 1.5rem 0;
+    text-transform: uppercase;
+
+}
+
+.contenido-resumen{
+    margin-bottom: 2.5rem 0;
+    p{
+        margin-bottom: .5rem;       
+        text-align: left;
+        span{            
+            font-weight: $bold;
+            color: $azul;
+            font-size: 2.4rem;
+        }
+    }
+    
+}
+.resumen-servicios{
+    h3{
+        margin: 2.5rem;
+    }
+    .contenedor-servicio{
+        margin-bottom: 2rem;
+        padding-bottom: 2rem ;
+        border-bottom: solid 1px $gris;
+        .precio{
+            font-size: 2.4rem;
+            font-weight: bold;
+            color: $azul;
+        }  
+                  
+    }
+}
+
+.total{
+    text-align: right;
+}
+
+
+    
+
+
+

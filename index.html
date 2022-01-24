@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Salón de Belleza</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+
+    <div class="contenedor-estetica">
+        <div class="imagen"></div>
+        <div class="app">
+            <header class="header">
+                <h1>App Peluqueria</h1>
+            </header>
+            <nav class="tabs">
+                <button type="button" data-paso="1">Servicios</button>
+                <button type="button" data-paso="2">Información Cliente</button>
+                <button type="button" data-paso="3">Resumen</button>
+            </nav>
+            
+            <!--EMPIEZA CONTENIDO DE APP-->
+            <div class="seccion" id="paso-1">
+                <h2>Servicios</h2>
+                <p>Elige tus servicios a continuación:</p>
+                <div id="servicios" class="listado-servicios"></div>
+            </div>
+
+            <div class="seccion" id="paso-2">
+                <h2>Tus Datos y cita</h2>
+                <p>Coloca tus datos y fecha de tu cita</p>
+                <form class="formulario" action="">
+                    
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" type="text" placeholder="Tu nombre">
+                    </div>
+                    <div class="campo">
+                        <label for="fecha">Fecha</label>
+                        <input id="fecha" type="date" min="2021-09-01">
+                    </div>
+                    <div class="campo">
+                        <label for="hora">Hora</label>
+                        <input id="hora" type="time">
+                    </div>
+                    
+                </form>
+            </div>
+
+            <div class="seccion contenido-resumen" id="paso-3">
+                <h2>Resumen</h2>
+            </div>
+
+            <div class="paginacion">
+                <button id="anterior">&laquo;Anterior</button>
+                <button id="siguiente">Siguiente&raquo;</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="build/js/bundle.min.js"></script>
+</body>
+</html>

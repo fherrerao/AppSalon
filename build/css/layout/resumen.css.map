@@ -1,0 +1,1 @@
+{"version":3,"sources":["layout/resumen.scss"],"names":[],"mappings":"AAAA,gBACI,iBAAkB,CAClB,eAAgB,CAChB,wBAAyB","file":"resumen.css","sourcesContent":[".invalidar-cita{\r\n    text-align: center;\r\n    margin: 1.5rem 0;\r\n    text-transform: uppercase;\r\n}"]}

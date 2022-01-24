@@ -1,0 +1,33 @@
+.formulario{
+    width: 100%;
+}
+.campo{
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    label{
+        flex: 0 0 15rem;
+        color: $blanco;
+        font-size: 2.5rem;
+        
+    }
+    input{
+        flex: 1;
+        padding: 1.5rem;
+        font-size: 2.5rem;
+        border-radius: 15px;
+    }
+}
+
+.alerta{
+    padding: 2.5rem;
+    text-align: center;
+    color: $blanco;
+    width: 100%;
+    display: block;
+    &.error{
+        background-color: rgb(194,0,0);
+    }
+}
+
+
